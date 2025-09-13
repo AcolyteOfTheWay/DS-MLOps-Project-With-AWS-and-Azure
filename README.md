@@ -89,7 +89,9 @@ This repository implements a student exam performance prediction project. It con
 Run the Flask app:
 
 ```bash
-  python app.py```
+  python app.py
+
+## 
 The application in app.py calls app.run(host="0.0.0.0") when __main__. The Elastic Beanstalk config references the WSGI application object as application in the repository root.
 
 The repository contains pre-trained artifacts/model.pkl and artifacts/preprocessor.pkl so the prediction endpoint can use them (unless the code placeholders ... prevent execution).
@@ -105,5 +107,6 @@ Several Python files in src/ contain ... placeholder sections. These files may b
 README.md in the original repository root was empty; this file documents the repository contents exactly as they appear in the uploaded archive.
 
 setup.py uses get_requirements('requirements.txt') and defines package metadata: name='mlopsproject', version='0.0.1', author Jordan.
+
 
 
